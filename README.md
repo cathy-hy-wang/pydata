@@ -3,7 +3,8 @@
 
    ***Fluent Python***
 
-   [Python for Data Aanlysis](https://wesmckinney.com/book/)
+   [Python for Data Analysis](https://wesmckinney.com/book/)
+
 
 ## 1. Environment Setup
 
@@ -28,10 +29,45 @@ Miniconda is a lightweight alternative to Anaconda, providing just the essential
    source /opt/miniconda3/bin/activate
    conda init 
    conda info -e
+   ```
 
 2. setup isolated environment:
    ```bash
    conda create -n pydata
    conda activate pydata
+   ```
 
-## 2. IPython & Jupyter 
+
+## 2. Python Core Concept 
+   ```bash
+   1 Data Types (Strings/Numbers/Booleans)
+   2 Data Structures (Lists/Tuples/Sets/Dictionaries)
+   3 Control Statements (If/Loop)
+   4 Functions 
+   5 Input and Output 
+   6 Try/Catch/Finally 
+   7 Object Programming 
+   8 import/package/module 
+   ```
+
+
+## 3. NumPy and Pandas
+   ```bash
+   pandas vs polars vs dask
+   ```
+
+## 4. Data Loading and Storage 
+   ```bash
+   files: csv/excel/pdf/xml/json
+   database: postgresql
+   ```
+
+## 5. Data Visualization 
+   ```bash
+   (Add content here) 
+   ```
+
+## 6. Practice
+   ```bash
+   (Add content here) 
+   ```
