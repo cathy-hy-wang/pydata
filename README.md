@@ -1,25 +1,30 @@
-1 enivironment setup 
+## 1. Environment Setup
 
-why python vs why not python?
-interpreted programming language 
+Why Python vs Why Not Python?
 
-vscode + wsl + ubuntu 
+Python is an interpreted programming language, making it easy to debug and suitable for rapid development.
 
-miscrosoft store -- get ubuntu 
+### Tools and Setup
+- **VS Code + WSL + Ubuntu**: A powerful combination for Python development.
+- **Microsoft Store**: Install Ubuntu directly from the Microsoft Store.
 
-#anaconda vs minconda 
+### Anaconda vs Miniconda
+Miniconda is a lightweight alternative to Anaconda, providing just the essentials for Python package management.
 
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
+#### Installation Steps:
+1. Download Miniconda:
+   ```bash
+   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   bash Miniconda3-latest-Linux-x86_64.sh
 
-bash Miniconda3-latest-Linux-x86_64.sh
-source /opt/miniconda3/bin/activate
-conda init 
-conda info -e
-conda config --set ssl_verify false
+   source /opt/miniconda3/bin/activate
+   conda init 
+   conda info -e
 
-conda create -n pydata
-conda activate pydata
+2. setup isolated environment:
+   ```bash
+   conda create -n pydata
+   conda activate pydata
 
-
-2 ipython & jupyter 
+## 2. IPython & Jupyter 
