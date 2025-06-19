@@ -1,3 +1,10 @@
+## 0. Reference Books 
+   ***Python3从入门到实战***
+
+   ***Fluent Python***
+
+   [Python for Data Aanlysis](https://wesmckinney.com/book/)
+
 ## 1. Environment Setup
 
 Why Python vs Why Not Python?
