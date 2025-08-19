@@ -61,7 +61,7 @@ Miniconda is a lightweight alternative to Anaconda, providing just the essential
 ## 4. Data Loading and Storage 
    ```bash
    files: csv/excel/pdf/xml/json
-   database: postgresql
+   database: postgresql (knowledge of SQL)
    ```
 
 ## 5. Data Visualization 
